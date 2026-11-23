@@ -1,0 +1,35 @@
+:root {
+  /* 색 */
+  --color-bg: #ffffff;
+  --color-ink: #0f0f0d;
+  --color-muted: rgba(15, 15, 13, 0.55);
+  --color-border: rgba(15, 15, 13, 0.12);
+  --color-overlay: rgba(0, 0, 0, 0.3);
+
+  /* 서체 */
+  --font-display: "Noto Serif KR", Georgia, "Times New Roman", serif;
+  --font-body: "Pretendard", -apple-system, system-ui, "Segoe UI", sans-serif;
+
+  /* 글자 크기 */
+  --size-label: 12px;
+  --size-body: 16px;
+  --size-h2: 32px;
+  --size-h1: 64px;
+
+  /* 간격 */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-section: 64px;
+
+  /* 기타 */
+  --radius-card: 12px;
+  --ease-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-default: 150ms;
+  --content-max: 1080px;
+  --border-width: 1px;
+  --hover-lift: -2px;
+  --lead-max: 480px;
+  --reveal-distance: -24px;
+  --reveal-duration: 600ms;
+}

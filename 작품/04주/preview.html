@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>미리보기 — 나의 시선 아카이브</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="tokens.css">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+  .wrap {
+    max-width: var(--content-max);
+    margin: 0 auto;
+    padding: var(--space-section) var(--space-md);
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: var(--size-h1);
+    letter-spacing: -0.02em;
+    margin: 0 0 var(--space-sm);
+  }
+  p.lead {
+    font-size: var(--size-body);
+    color: var(--color-muted);
+    max-width: 480px;
+    margin: 0 0 var(--space-section);
+  }
+  .card {
+    border-radius: var(--radius-card);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    max-width: 320px;
+    transition: transform var(--duration-default) var(--ease-default);
+  }
+  .card:hover { transform: translateY(-2px); }
+  .card .photo {
+    aspect-ratio: 4 / 5;
+    background: var(--color-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-muted);
+    font-size: var(--size-label);
+  }
+  .card .caption {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--size-label);
+    color: var(--color-muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  nav a {
+    font-size: var(--size-body);
+    color: var(--color-ink);
+    text-decoration: none;
+    margin-right: var(--space-sm);
+    border-bottom: 1px solid transparent;
+  }
+  nav a:hover { border-bottom-color: var(--color-ink); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a href="#">(하늘)</a><a href="#">(손)</a><a href="#">(길)</a><a href="#">(고른 이유)</a>
+  </nav>
+  <h1 style="margin-top: var(--space-section);">나의 시선 아카이브</h1>
+  <p class="lead">같은 단어로 찾았는데, 나는 왜 이 5장을 골랐을까?</p>
+  <div class="card">
+    <div class="photo">사진 자리: 하늘 01</div>
+    <div class="caption">하늘 — 탁 트인 노을</div>
+  </div>
+</div>
+</body>
+</html>
